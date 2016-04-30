@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D10D5761CC0E78000E5E427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D5751CC0E78000E5E427 /* main.m */; };
+		0D10D5791CC0E78000E5E427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D5781CC0E78000E5E427 /* AppDelegate.m */; };
+		0D10D57C1CC0E78000E5E427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D57B1CC0E78000E5E427 /* ViewController.m */; };
+		0D10D57F1CC0E78000E5E427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D57D1CC0E78000E5E427 /* Main.storyboard */; };
+		0D10D5811CC0E78000E5E427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D5801CC0E78000E5E427 /* Assets.xcassets */; };
+		0D10D5841CC0E78000E5E427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D5821CC0E78000E5E427 /* LaunchScreen.storyboard */; };
+		0D10D58F1CC0E78000E5E427 /* MSShootingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D58E1CC0E78000E5E427 /* MSShootingTests.m */; };
+		0D10D59B1CC0E80F00E5E427 /* LocMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D59A1CC0E80F00E5E427 /* LocMakerViewController.m */; };
+		0D10D59D1CC0E87E00E5E427 /* 月半弯.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D59C1CC0E87E00E5E427 /* 月半弯.mp3 */; };
+		0D10D59F1CC0E88F00E5E427 /* myPlayer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D59E1CC0E88F00E5E427 /* myPlayer.mp4 */; };
+		0D10D5A51CC0EDB700E5E427 /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D5A41CC0EDB700E5E427 /* MediaManager.m */; };
+		0D10D5A81CC0EDE400E5E427 /* MSMediaMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D5A71CC0EDE400E5E427 /* MSMediaMakerViewController.m */; };
+		0D10D5AB1CC0EE4800E5E427 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D5AA1CC0EE4800E5E427 /* PlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D10D58B1CC0E78000E5E427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D10D5691CC0E78000E5E427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D10D5701CC0E78000E5E427;
+			remoteInfo = MSShooting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D10D5711CC0E78000E5E427 /* MSShooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D10D5751CC0E78000E5E427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D10D5771CC0E78000E5E427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D10D5781CC0E78000E5E427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D10D57A1CC0E78000E5E427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D10D57B1CC0E78000E5E427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D10D57E1CC0E78000E5E427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D10D5801CC0E78000E5E427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D10D5831CC0E78000E5E427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D10D5851CC0E78000E5E427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D10D58A1CC0E78000E5E427 /* MSShootingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShootingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D10D58E1CC0E78000E5E427 /* MSShootingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShootingTests.m; sourceTree = "<group>"; };
+		0D10D5901CC0E78000E5E427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D10D5991CC0E80F00E5E427 /* LocMakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocMakerViewController.h; sourceTree = "<group>"; };
+		0D10D59A1CC0E80F00E5E427 /* LocMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocMakerViewController.m; sourceTree = "<group>"; };
+		0D10D59C1CC0E87E00E5E427 /* 月半弯.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "月半弯.mp3"; sourceTree = "<group>"; };
+		0D10D59E1CC0E88F00E5E427 /* myPlayer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = myPlayer.mp4; sourceTree = "<group>"; };
+		0D10D5A31CC0EDB700E5E427 /* MediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		0D10D5A41CC0EDB700E5E427 /* MediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaManager.m; sourceTree = "<group>"; };
+		0D10D5A61CC0EDE400E5E427 /* MSMediaMakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMediaMakerViewController.h; sourceTree = "<group>"; };
+		0D10D5A71CC0EDE400E5E427 /* MSMediaMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMediaMakerViewController.m; sourceTree = "<group>"; };
+		0D10D5A91CC0EE4800E5E427 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		0D10D5AA1CC0EE4800E5E427 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D10D56E1CC0E78000E5E427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D5871CC0E78000E5E427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D10D5681CC0E78000E5E427 = {
+			isa = PBXGroup;
+			children = (
+				0D10D5731CC0E78000E5E427 /* MSShooting */,
+				0D10D58D1CC0E78000E5E427 /* MSShootingTests */,
+				0D10D5721CC0E78000E5E427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D10D5721CC0E78000E5E427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D5711CC0E78000E5E427 /* MSShooting.app */,
+				0D10D58A1CC0E78000E5E427 /* MSShootingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D10D5731CC0E78000E5E427 /* MSShooting */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D5A01CC0E89200E5E427 /* Source */,
+				0D10D5771CC0E78000E5E427 /* AppDelegate.h */,
+				0D10D5781CC0E78000E5E427 /* AppDelegate.m */,
+				0D10D57A1CC0E78000E5E427 /* ViewController.h */,
+				0D10D57B1CC0E78000E5E427 /* ViewController.m */,
+				0D10D5A11CC0ED9500E5E427 /* LocMaker1 */,
+				0D10D5A21CC0EDAA00E5E427 /* Maker2 */,
+				0D10D5741CC0E78000E5E427 /* Supporting Files */,
+			);
+			path = MSShooting;
+			sourceTree = "<group>";
+		};
+		0D10D5741CC0E78000E5E427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D57D1CC0E78000E5E427 /* Main.storyboard */,
+				0D10D5801CC0E78000E5E427 /* Assets.xcassets */,
+				0D10D5821CC0E78000E5E427 /* LaunchScreen.storyboard */,
+				0D10D5851CC0E78000E5E427 /* Info.plist */,
+				0D10D5751CC0E78000E5E427 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D10D58D1CC0E78000E5E427 /* MSShootingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D58E1CC0E78000E5E427 /* MSShootingTests.m */,
+				0D10D5901CC0E78000E5E427 /* Info.plist */,
+			);
+			path = MSShootingTests;
+			sourceTree = "<group>";
+		};
+		0D10D5A01CC0E89200E5E427 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D59C1CC0E87E00E5E427 /* 月半弯.mp3 */,
+				0D10D59E1CC0E88F00E5E427 /* myPlayer.mp4 */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0D10D5A11CC0ED9500E5E427 /* LocMaker1 */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D5991CC0E80F00E5E427 /* LocMakerViewController.h */,
+				0D10D59A1CC0E80F00E5E427 /* LocMakerViewController.m */,
+			);
+			name = LocMaker1;
+			sourceTree = "<group>";
+		};
+		0D10D5A21CC0EDAA00E5E427 /* Maker2 */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D5A31CC0EDB700E5E427 /* MediaManager.h */,
+				0D10D5A41CC0EDB700E5E427 /* MediaManager.m */,
+				0D10D5A61CC0EDE400E5E427 /* MSMediaMakerViewController.h */,
+				0D10D5A71CC0EDE400E5E427 /* MSMediaMakerViewController.m */,
+				0D10D5A91CC0EE4800E5E427 /* PlayViewController.h */,
+				0D10D5AA1CC0EE4800E5E427 /* PlayViewController.m */,
+			);
+			name = Maker2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D10D5701CC0E78000E5E427 /* MSShooting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D10D5931CC0E78000E5E427 /* Build configuration list for PBXNativeTarget "MSShooting" */;
+			buildPhases = (
+				0D10D56D1CC0E78000E5E427 /* Sources */,
+				0D10D56E1CC0E78000E5E427 /* Frameworks */,
+				0D10D56F1CC0E78000E5E427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSShooting;
+			productName = MSShooting;
+			productReference = 0D10D5711CC0E78000E5E427 /* MSShooting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D10D5891CC0E78000E5E427 /* MSShootingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D10D5961CC0E78000E5E427 /* Build configuration list for PBXNativeTarget "MSShootingTests" */;
+			buildPhases = (
+				0D10D5861CC0E78000E5E427 /* Sources */,
+				0D10D5871CC0E78000E5E427 /* Frameworks */,
+				0D10D5881CC0E78000E5E427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D10D58C1CC0E78000E5E427 /* PBXTargetDependency */,
+			);
+			name = MSShootingTests;
+			productName = MSShootingTests;
+			productReference = 0D10D58A1CC0E78000E5E427 /* MSShootingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D10D5691CC0E78000E5E427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mr.scorpion;
+				TargetAttributes = {
+					0D10D5701CC0E78000E5E427 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GXHE3742MX;
+					};
+					0D10D5891CC0E78000E5E427 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0D10D5701CC0E78000E5E427;
+					};
+				};
+			};
+			buildConfigurationList = 0D10D56C1CC0E78000E5E427 /* Build configuration list for PBXProject "MSShooting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D10D5681CC0E78000E5E427;
+			productRefGroup = 0D10D5721CC0E78000E5E427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D10D5701CC0E78000E5E427 /* MSShooting */,
+				0D10D5891CC0E78000E5E427 /* MSShootingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D10D56F1CC0E78000E5E427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D5841CC0E78000E5E427 /* LaunchScreen.storyboard in Resources */,
+				0D10D5811CC0E78000E5E427 /* Assets.xcassets in Resources */,
+				0D10D59F1CC0E88F00E5E427 /* myPlayer.mp4 in Resources */,
+				0D10D59D1CC0E87E00E5E427 /* 月半弯.mp3 in Resources */,
+				0D10D57F1CC0E78000E5E427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D5881CC0E78000E5E427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D10D56D1CC0E78000E5E427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D5A81CC0EDE400E5E427 /* MSMediaMakerViewController.m in Sources */,
+				0D10D5A51CC0EDB700E5E427 /* MediaManager.m in Sources */,
+				0D10D59B1CC0E80F00E5E427 /* LocMakerViewController.m in Sources */,
+				0D10D57C1CC0E78000E5E427 /* ViewController.m in Sources */,
+				0D10D5791CC0E78000E5E427 /* AppDelegate.m in Sources */,
+				0D10D5761CC0E78000E5E427 /* main.m in Sources */,
+				0D10D5AB1CC0EE4800E5E427 /* PlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D5861CC0E78000E5E427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D58F1CC0E78000E5E427 /* MSShootingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D10D58C1CC0E78000E5E427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D10D5701CC0E78000E5E427 /* MSShooting */;
+			targetProxy = 0D10D58B1CC0E78000E5E427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D10D57D1CC0E78000E5E427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D10D57E1CC0E78000E5E427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D10D5821CC0E78000E5E427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D10D5831CC0E78000E5E427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D10D5911CC0E78000E5E427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D10D5921CC0E78000E5E427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D10D5941CC0E78000E5E427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MSShooting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0D10D5951CC0E78000E5E427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MSShooting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0D10D5971CC0E78000E5E427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSShootingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShootingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSShooting.app/MSShooting";
+			};
+			name = Debug;
+		};
+		0D10D5981CC0E78000E5E427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSShootingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShootingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSShooting.app/MSShooting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D10D56C1CC0E78000E5E427 /* Build configuration list for PBXProject "MSShooting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D5911CC0E78000E5E427 /* Debug */,
+				0D10D5921CC0E78000E5E427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D10D5931CC0E78000E5E427 /* Build configuration list for PBXNativeTarget "MSShooting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D5941CC0E78000E5E427 /* Debug */,
+				0D10D5951CC0E78000E5E427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D10D5961CC0E78000E5E427 /* Build configuration list for PBXNativeTarget "MSShootingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D5971CC0E78000E5E427 /* Debug */,
+				0D10D5981CC0E78000E5E427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D10D5691CC0E78000E5E427 /* Project object */;
+}
