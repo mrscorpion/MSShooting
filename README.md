@@ -2,7 +2,7 @@
 shooting  -- 相机拍摄，视频和音乐合成
 ## 效果图
 
-![](Explode.gif)
+![](Shooting.gif)
 
 ## Contact
 
